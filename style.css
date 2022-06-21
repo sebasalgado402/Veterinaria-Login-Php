@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container{
+    padding: 20px 20px;
+    width: 700px;
+    box-shadow: 10px 10px 10px black;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+img{
+    width: 300px;
+}
+
+body{
+    background-color: rgb(18, 117, 117);
+}
+h1{
+    color: aliceblue;
+    background-color: rgb(0, 85, 85);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center center;
+    padding: 10px;
+}
