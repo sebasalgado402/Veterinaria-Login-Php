@@ -13,25 +13,34 @@
 </head>
 
 <body>
-  <div class="container">
+  
+  <div class="container col-4">
     <div class="row">
-      <div class="col-3"></div>
-      <div class="col-6">
+      
+      <div class="col-offset-md-6">
         <form action="comparar.php" method="post">
-          <h1 class="text-center">Login</h1>
-          <div class="card">
-              <div class="card">
-                <small id="emailHelp" class="form-text text-muted">Ingrese nombre de usuario</small>
-                <input type="text" name="usuario" id="txtUser" Required>
-                <small id="emailHelp" class="form-text text-muted">Ingrese Contraseña</small>
-                <input type="password" name="passwd" id="txtPasswd" Required>
-              
-                <button type="submit" class="btn btn-primary" id="btnIngresar">Submit</button>
-              </div>
+          <div class="img-logo">
+            <img src="images/descarga.png" alt="..." >
           </div>
+          <h1 class="h1 text-center">Iniciar Sesión</h1>
+            <div class="mb-4">
+              <!-- <label for="usuario" class="form-label">Ingrese nombre de usuario</label> -->
+              <input type="text" name="usuario" id="txtUser" class="form-control" placeholder="Ingrese nombre de usuario" Required>
+
+            </div>
+            <div class="mb-4">
+              <!-- <label for="password" class="form-label">Ingrese Contraseña</label> -->
+              <input type="password" name="passwd" id="txtPasswd" class="form-control" placeholder="Ingrese contraseña" Required>
+
+            </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-outline-primary" id="btnIngresar" >Iniciar Sesión</button>
+              </div>
+              
+              
         </form>
       </div>
-      <div class="col-3"></div>
+      
     </div>
   </div>
 </body>
